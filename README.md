@@ -1,14 +1,14 @@
 <div align="center">
-  <h1>Mozartec Capacitor Microphone</h1>
-  <h2>@mozartec/capacitor-microphone</h2>
+  <h1>Carviz Capacitor Microphone</h1>
+  <h2>@Carviz/capacitor-microphone</h2>
 
 This Microphone API provides the ability to interact with the microphone and record Audio
 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/mozartec/capacitor-microphone/graphs/commit-activity) [![License](https://img.shields.io/npm/l/@mozartec/capacitor-microphone.svg)](/LICENSE) 
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/Carviz/capacitor-microphone/graphs/commit-activity) [![License](https://img.shields.io/npm/l/@Carviz/capacitor-microphone.svg)](/LICENSE) 
   <br>
-[![Dependency Status](https://david-dm.org/mozartec/capacitor-microphone.svg)](https://david-dm.org/mozartec/capacitor-microphone) [![devDependency Status](https://david-dm.org/mozartec/capacitor-microphone/dev-status.svg)](https://david-dm.org/mozartec/capacitor-microphone?type=dev)
+[![Dependency Status](https://david-dm.org/Carviz/capacitor-microphone.svg)](https://david-dm.org/Carviz/capacitor-microphone) [![devDependency Status](https://david-dm.org/Carviz/capacitor-microphone/dev-status.svg)](https://david-dm.org/Carviz/capacitor-microphone?type=dev)
   <br>
-[![npm version](https://badge.fury.io/js/%40mozartec%2Fcapacitor-microphone.svg)](https://www.npmjs.com/package/@mozartec/capacitor-microphone) [![NPM Downloads](https://img.shields.io/npm/dw/@mozartec/capacitor-microphone)](https://www.npmjs.com/package/@mozartec/capacitor-microphone)
+[![npm version](https://badge.fury.io/js/%40Carviz%2Fcapacitor-microphone.svg)](https://www.npmjs.com/package/@Carviz/capacitor-microphone) [![NPM Downloads](https://img.shields.io/npm/dw/@Carviz/capacitor-microphone)](https://www.npmjs.com/package/@Carviz/capacitor-microphone)
 </div>
   
 ## Platform support
@@ -24,7 +24,7 @@ This Microphone API provides the ability to interact with the microphone and rec
 ## Install
 
 ```bash
-npm install @mozartec/capacitor-microphone
+npm install @Carviz/capacitor-microphone
 npx cap sync
 ```
 

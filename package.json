@@ -1,5 +1,5 @@
 {
-  "name": "@mozartec/capacitor-microphone",
+  "name": "@Carviz/capacitor-microphone",
   "version": "6.0.0",
   "description": "This Microphone API provides the ability to interact with the microphone and record Audio",
   "main": "dist/plugin.cjs.js",
@@ -11,16 +11,16 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "MozartecCapacitorMicrophone.podspec"
+    "CarvizCapacitorMicrophone.podspec"
   ],
-  "author": "Mozart <mozart.alkhateeb@gmail.com> (https://mozartec.com/)",
+  "author": "Mozart <mozart.alkhateeb@gmail.com> (https://Carviz.com/)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozartec/capacitor-microphone.git"
+    "url": "git+https://github.com/Carviz/capacitor-microphone.git"
   },
   "bugs": {
-    "url": "https://github.com/mozartec/capacitor-microphone/issues"
+    "url": "https://github.com/Carviz/capacitor-microphone/issues"
   },
   "keywords": [
     "capacitor",

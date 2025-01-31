@@ -1,4 +1,4 @@
-package com.mozartec.capacitor.microphone
+package com.Carviz.capacitor.microphone
 
 import com.getcapacitor.JSObject
 
