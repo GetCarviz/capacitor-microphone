@@ -1,6 +1,6 @@
 {
   "name": "@Carviz/capacitor-microphone",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "This Microphone API provides the ability to interact with the microphone and record Audio",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,14 +13,14 @@
     "ios/Plugin/",
     "CarvizCapacitorMicrophone.podspec"
   ],
-  "author": "Mozart <mozart.alkhateeb@gmail.com> (https://Carviz.com/)",
+  "author": "Evan Barberousse <evan@carviz.com> (https://Carviz.com/)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Carviz/capacitor-microphone.git"
+    "url": "git+https://github.com/GetCarviz/capacitor-microphone.git"
   },
   "bugs": {
-    "url": "https://github.com/Carviz/capacitor-microphone/issues"
+    "url": "https://github.com/GetCarviz/capacitor-microphone/issues"
   },
   "keywords": [
     "capacitor",
@@ -51,11 +51,11 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^6.0.0",
-    "@capacitor/cli": "^6.0.0",
-    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.1",
     "@capacitor/docgen": "^0.0.18",
-    "@capacitor/ios": "^6.0.0",
+    "@capacitor/ios": "^7.0.1",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
