@@ -6,6 +6,8 @@ name: Publish Released Package
 on:
   release:
     types: [released]
+  workflow_dispatch:
+      
 
 jobs:
   build:
@@ -33,7 +35,7 @@ jobs:
       - run: npm ci
       - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
 
   publish-gpr:
     needs: build
