@@ -71,7 +71,7 @@ public class MicrophonePlugin: CAPPlugin {
         }
     }
     
-    @objc func stopRecording(_ call: CAPPluginCall) {
+    @objc func stopRecording(_ call: CAPPluginCall) async {
         if(implementation == nil) {
             call.reject(StatusMessageTypes.noRecordingInProgress.rawValue)
             return
@@ -88,13 +88,14 @@ public class MicrophonePlugin: CAPPlugin {
         
         let webURL = bridge?.portablePath(fromLocalURL: audioFileUrl)
         let base64String = readFileAsBase64(audioFileUrl)
+        let duration = await getAudioFileDuration(audioFileUrl)
         
         let audioRecording = AudioRecording(
             base64String: base64String,
             dataUrl: (base64String != nil) ? ("data:audio/aac;base64," + base64String!) : nil,
             path: audioFileUrl?.absoluteString,
             webPath: webURL?.path,
-            duration: getAudioFileDuration(audioFileUrl),
+            duration: duration,
             format: ".m4a",
             mimeType: "audio/aac"
         )
@@ -124,10 +125,19 @@ public class MicrophonePlugin: CAPPlugin {
         return nil
     }
     
-    private func getAudioFileDuration(_ filePath: URL?) -> Int {
-        if filePath == nil {
+    private func getAudioFileDuration(_ filePath: URL?) async -> Int {
+        guard let filePath = filePath else {
             return -1
         }
-        return Int(CMTimeGetSeconds(AVURLAsset(url: filePath!).duration) * 1000)
+
+        let asset = AVURLAsset(url: filePath)
+
+        do {
+            let duration = try await asset.load(.duration)
+            return Int(CMTimeGetSeconds(duration) * 1000)
+        } catch {
+            print("Error loading audio file duration: \(error)")
+            return -1
+        }
     }
 }
