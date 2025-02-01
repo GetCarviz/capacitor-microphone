@@ -4,11 +4,11 @@
 
 This Microphone API provides the ability to interact with the microphone and record Audio
 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/Carviz/capacitor-microphone/graphs/commit-activity) [![License](https://img.shields.io/npm/l/@Carviz/capacitor-microphone.svg)](/LICENSE) 
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/GetCarviz/capacitor-microphone/graphs/commit-activity)
   <br>
 [![Dependency Status](https://david-dm.org/Carviz/capacitor-microphone.svg)](https://david-dm.org/Carviz/capacitor-microphone) [![devDependency Status](https://david-dm.org/Carviz/capacitor-microphone/dev-status.svg)](https://david-dm.org/Carviz/capacitor-microphone?type=dev)
   <br>
-[![npm version](https://badge.fury.io/js/%40Carviz%2Fcapacitor-microphone.svg)](https://www.npmjs.com/package/@Carviz/capacitor-microphone) [![NPM Downloads](https://img.shields.io/npm/dw/@Carviz/capacitor-microphone)](https://www.npmjs.com/package/@Carviz/capacitor-microphone)
+[![npm version](https://badge.fury.io/js/%40Carviz%2Fcapacitor-microphone.svg)](https://www.npmjs.com/package/@carviz/capacitor-microphone) [![NPM Downloads](https://img.shields.io/npm/dw/@carviz/capacitor-microphone)](https://www.npmjs.com/package/@carviz/capacitor-microphone)
 </div>
   
 ## Platform support
