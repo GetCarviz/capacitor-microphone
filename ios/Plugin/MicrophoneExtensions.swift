@@ -2,7 +2,6 @@
 //  MicrophoneExtensions.swift
 //  Plugin
 //
-//  Created by mozart alkhateeb on 30/05/2021.
 //  Copyright © 2021 Max Lynch. All rights reserved.
 //
 
