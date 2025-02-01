@@ -1,5 +1,5 @@
 {
-  "name": "@Carviz/capacitor-microphone",
+  "name": "@carviz/capacitor-microphone",
   "version": "7.0.0",
   "description": "This Microphone API provides the ability to interact with the microphone and record Audio",
   "main": "dist/plugin.cjs.js",
