@@ -1,6 +1,6 @@
 {
   "name": "@getcarviz/capacitor-microphone",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "This Microphone API provides the ability to interact with the microphone and record Audio",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,8 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "GetcarvizCapacitorMicrophone.podspec"
+    "GetcarvizCapacitorMicrophone.podspec",
+    "Package.swift"
   ],
   "author": "Evan Barberousse <evan@carviz.com> (https://Carviz.com/)",
   "license": "MIT",

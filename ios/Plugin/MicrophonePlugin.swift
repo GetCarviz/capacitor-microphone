@@ -6,7 +6,15 @@ import AVFoundation
  * here: https://capacitorjs.com/docs/plugins/ios
  */
 @objc(MicrophonePlugin)
-public class MicrophonePlugin: CAPPlugin {
+public class MicrophonePlugin: CAPPlugin, CAPBridgedPlugin {
+    public let identifier = "MicrophonePlugin"
+    public let jsName = "Microphone"
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(name: "checkPermissions", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "requestPermissions", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "startRecording", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "stopRecording", returnType: CAPPluginReturnPromise)
+    ]
     private var implementation: Microphone? = nil
 
     @objc override public func checkPermissions(_ call: CAPPluginCall) {
